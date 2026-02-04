@@ -1,0 +1,97 @@
+/* --- CONFIGURATION GÉNÉRALE --- */
+body {
+    background-color: #f5f5dc; /* Ton beige doux */
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.7; /* Un peu d'espace pour le confort de lecture */
+}
+
+/* --- LES TITRES (MARRON & DORÉ) --- */
+header {
+    text-align: center;
+    padding: 70px 20px;
+    border-bottom: 4px double #d4af37; /* Double ligne dorée pour le chic */
+}
+
+h1 {
+    font-size: 4.5rem;         /* Très grand pour le nom du blog */
+    color: #5d4037;            /* Marron profond */
+    margin: 0;
+    letter-spacing: 4px;
+}
+
+h2, h3 {
+    color: #5d4037;            /* Tous les titres et sous-titres en marron */
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-top: 40px;
+}
+
+h3 {
+    font-size: 1.6rem;
+    border-bottom: 1px solid #d4af37; /* Soulignement doré pour les sous-titres */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* --- LE CONTENU (NOIR PUR) --- */
+p, li, span {
+    color: #000000;            /* Le contenu est maintenant strictement noir */
+    font-size: 1.15rem;        /* Taille normale et lisible */
+    max-width: 800px;          /* Pour que les lignes ne soient pas trop longues */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.univers-card p {
+    text-align: justify;       /* Aspect propre type "édition" */
+}
+
+/* --- LES MOTS MIS EN AVANT --- */
+strong {
+    color: #8b4513;            /* Les mots importants restent en marron chaud */
+    font-weight: bold;
+}
+
+/* --- ÉLÉMENTS DÉCORATIFS (FLEURS & DORÉ) --- */
+.univers-card {
+    background-color: #fdfdf5; /* Un beige encore plus clair pour détacher les blocs */
+    border: 1px solid #d4af37; 
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 4px;
+    position: relative;
+}
+
+/* Ajout d'une petite fleur dorée en haut de chaque section */
+section::before {
+    content: "✿";
+    display: block;
+    text-align: center;
+    color: #d4af37;
+    font-size: 2rem;
+    margin-bottom: -20px;
+}
+
+/* --- BOUTONS --- */
+button {
+    background-color: #5d4037;
+    color: #d4af37; /* Texte doré sur bouton marron */
+    border: 1px solid #d4af37;
+    padding: 12px 25px;
+    font-family: 'Times New Roman', serif;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #000000; /* Le bouton passe au noir au survol */
+    color: #ffffff;
+}
+#profilGenere { display: none; }
